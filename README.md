@@ -20,7 +20,7 @@ This is my 7th Frontend Mentor project.
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ/hub/profile-card-component-using-sass-wpjJxf5bzd](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ/hub/profile-card-component-using-sass-wpjJxf5bzd)
+- Solution URL: [https://www.frontendmentor.io/solutions/profile-card-component-using-sass-wpjJxf5bzd](https://www.frontendmentor.io/solutions/profile-card-component-using-sass-wpjJxf5bzd)
 - Live Site URL: [https://siddhinandaniya.github.io/Profile-card-component/](https://siddhinandaniya.github.io/Profile-card-component/)
 
 ## Author
