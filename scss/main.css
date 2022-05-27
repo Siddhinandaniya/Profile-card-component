@@ -9,27 +9,8 @@ body {
   min-height: 100vh;
   background-color: #19a2ae;
   position: relative;
-  overflow: hidden;
-}
-
-.circle1 {
-  position: absolute;
-  bottom: 10rem;
-  right: 50rem;
-}
-
-.circle2 {
-  position: absolute;
-  top: 20rem;
-  left: 47rem;
-}
-
-.container {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
+  background-size: 60vw 60vw, 70vw 70vw;
+  background-position: left -15vw top -30vw, right -20vw bottom -46vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -43,13 +24,17 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat;
+}
+
+.card-img {
+  width: 100%;
 }
 
 .box {
-  width: 20rem;
-  -ms-flex-item-align: center;
-      align-self: center;
-  border-radius: 10px;
+  width: 23rem;
+  border-radius: 13px;
   overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -68,7 +53,6 @@ body {
       flex-shrink: 3;
   background-color: white;
   font-family: "Kumbh Sans", sans-serif;
-  margin-bottom: 2rem;
 }
 
 .part-1-card {
@@ -78,6 +62,7 @@ body {
 .pro-img {
   border-radius: 100%;
   width: 30%;
+  width: 100px;
   margin-top: -50px;
   border: 2px solid white;
   z-index: 3;
@@ -108,30 +93,33 @@ div {
 }
 
 div h4 {
-  margin-top: 1rem;
+  margin-top: 1.4rem;
   color: #2d3248;
+  font-size: 1.1rem;
 }
 
 div h4 span {
   color: #969696;
+  font-size: 1.1rem;
   margin-left: 0.5rem;
   font-weight: 400;
 }
 
 div p {
   color: #969696;
-  margin-top: 0.5rem;
-  font-size: 0.8rem;
+  margin-top: 1rem;
+  font-size: 1rem;
   margin-bottom: 1.5rem;
 }
 
 div hr {
   width: 100%;
-  color: #969696;
+  color: #6a6f81;
   border-bottom: none;
 }
 
 div .last-box {
+  border-top: 1px solid #e6e6e6;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -152,7 +140,7 @@ div .last-box {
 }
 
 div .last-box .box-L {
-  margin: 1.2rem 0;
+  margin: 2rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -180,118 +168,21 @@ div .last-box .box-L p {
 }
 
 .attribution {
-  font-family: "Kumbh Sans", sans-serif;
-  font-size: 1rem !important;
-  color: #2d3248;
+  position: relative;
+  top: 8rem;
 }
 
 .attribution a:link,
-.attribution a:visited {
-  color: white;
-  font-size: 1rem;
+a:visited {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 0.8rem;
+  color: #d14a47;
 }
 
-@media only screen and (max-width: 1500px) {
-  .circle1 {
-    position: absolute;
-    bottom: 10rem;
-    right: 50rem;
-  }
-  .circle2 {
-    position: absolute;
-    top: 19rem;
-    left: 43rem;
-  }
-}
-
-@media only screen and (max-width: 1400px) {
-  .circle1 {
-    position: absolute;
-    bottom: 9rem;
-    right: 45rem;
-  }
-  .circle2 {
-    position: absolute;
-    top: 19rem;
-    left: 41rem;
-  }
-}
-
-@media only screen and (max-width: 1300px) {
-  .circle1 {
-    position: absolute;
-    bottom: 9rem;
-    right: 40rem;
-  }
-  .circle2 {
-    position: absolute;
-    top: 19rem;
-    left: 34rem;
-  }
-}
-
-@media only screen and (max-width: 1100px) {
-  .circle1 {
-    position: absolute;
-    bottom: 9rem;
-    right: 38rem;
-  }
-  .circle2 {
-    position: absolute;
-    top: 19rem;
-    left: 31rem;
-  }
-}
-
-@media only screen and (max-width: 1000px) {
-  .circle1 {
-    position: absolute;
-    bottom: 9rem;
-    right: 33rem;
-  }
-  .circle2 {
-    position: absolute;
-    top: 19rem;
-    left: 30rem;
-  }
-}
-
-@media only screen and (max-width: 900px) {
-  .circle1 {
-    position: absolute;
-    bottom: 9rem;
-    right: 31rem;
-  }
-  .circle2 {
-    position: absolute;
-    top: 19rem;
-    left: 25rem;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .circle1 {
-    position: absolute;
-    bottom: 15rem;
-    right: 25rem;
-  }
-  .circle2 {
-    position: absolute;
-    top: 15rem;
-    left: 25rem;
-  }
-}
-
-@media only screen and (max-width: 650px) {
-  .circle1 {
-    position: absolute;
-    bottom: 10rem;
-    right: 20rem;
-  }
-  .circle2 {
-    position: absolute;
-    top: 10rem;
-    left: 20rem;
+@media (min-width: 768px) {
+  body {
+    background-size: 60vw 60vw, 70vw 70vw;
+    background-position: left -15vw top -30vw, right -20vw bottom -46vw;
   }
 }
 /*# sourceMappingURL=main.css.map */
