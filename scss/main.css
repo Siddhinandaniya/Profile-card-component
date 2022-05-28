@@ -112,14 +112,8 @@ div p {
   margin-bottom: 1.5rem;
 }
 
-div hr {
-  width: 100%;
-  color: #6a6f81;
-  border-bottom: none;
-}
-
-div .last-box {
-  border-top: 1px solid #e6e6e6;
+div .stats {
+  font-family: "Kumbh Sans", sans-serif;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -139,8 +133,20 @@ div .last-box {
       justify-content: space-around;
 }
 
-div .last-box .box-L {
-  margin: 2rem 0;
+div .stats .stats-num {
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+  font-weight: 800;
+  letter-spacing: 0px;
+  color: #2d3248;
+}
+
+div .stats li {
+  margin: 1.5rem;
+  letter-spacing: 1px;
+  font-size: 0.7rem;
+  color: #969696;
+  font-weight: 400;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -154,22 +160,19 @@ div .last-box .box-L {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  list-style: none;
 }
 
-div .last-box .box-L h3 {
-  color: #2d3248;
-}
-
-div .last-box .box-L p {
-  margin-top: 0.2rem;
-  letter-spacing: 1px;
-  font-size: 0.7rem;
-  margin-bottom: 0;
+div .last-box {
+  border-top: 1px solid #e6e6e6;
+  width: 100%;
+  padding: 0 2rem;
 }
 
 .attribution {
   position: relative;
-  top: 8rem;
+  top: 5rem;
+  font-family: "Kumbh Sans", sans-serif;
 }
 
 .attribution a:link,

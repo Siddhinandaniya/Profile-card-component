@@ -74,37 +74,41 @@ div {
     font-size: 1rem;
     margin-bottom: 1.5rem;
   }
-  hr {
-    width: 100%;
-    color: $Dark-grayish-blue;
 
-    border-bottom: none;
-  }
-  .last-box {
-    border-top: 1px solid hsl(0, 0%, 90%);
+  .stats {
+    font-family: $font-type;
     width: 100%;
     @include flexbox;
     flex-direction: row;
     justify-content: space-around;
 
-    .box-L {
-      margin: 2rem 0;
-      @include flexbox;
-      h3 {
-        color: $Very-dark-desaturated-blue;
-      }
-      p {
-        margin-top: 0.2rem;
-        letter-spacing: 1px;
-        font-size: 0.7rem;
-        margin-bottom: 0;
-      }
+    .stats-num {
+      font-size: 1.2rem;
+      margin-bottom: 0.3rem;
+      font-weight: 800;
+      letter-spacing: 0px;
+      color: $Very-dark-desaturated-blue;
     }
+    li {
+      margin: 1.5rem;
+      letter-spacing: 1px;
+      font-size: 0.7rem;
+      color: $Dark-gray;
+      font-weight: 400;
+      @include flexbox;
+      list-style: none;
+    }
+  }
+  .last-box {
+    border-top: 1px solid hsl(0, 0%, 90%);
+    width: 100%;
+    padding: 0 2rem;
   }
 }
 .attribution {
   position: relative;
-  top: 8rem;
+  top: 5rem;
+  font-family: $font-type;
 }
 .attribution a:link,
 a:visited {
