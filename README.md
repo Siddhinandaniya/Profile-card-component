@@ -21,9 +21,10 @@ This is my 7th Frontend Mentor project.
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/profile-card-component-using-sass-wpjJxf5bzd](https://www.frontendmentor.io/solutions/profile-card-component-using-sass-wpjJxf5bzd)
-- Live Site URL: [https://siddhinandaniya.github.io/Profile-card-component/](https://siddhinandaniya.github.io/Profile-card-component/)
+- Live Site URL: https://siddhie.github.io/Profile-card-component/
 
 ## Author
 
-- Linkedin - [Siddhi Nandaniya](https://www.linkedin.com/in/siddhi-nandaniya/)
-- Frontend Mentor - [@siddhinandaniya](https://www.frontendmentor.io/profile/Siddhinandaniya)
+- Linkedin - [Siddhi Nandaniya](https://www.linkedin.com/in/siddhie/)
+- Frontend Mentor - [@siddhinandaniya](https://www.frontendmentor.io/profile/Siddhie)
+
